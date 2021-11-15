@@ -20,11 +20,11 @@ chown root:root /usr/bin/starship
 
 # create users
 useradd -m user -s /bin/zsh
-cp -R /build/files/home/user/* /home/user
+cp -R /build/files/home/user /home
 chown -R user:user /home/user
 
 useradd -m tool -s /bin/zsh
-cp -R /build/files/home/tool/* /home/tool
+cp -R /build/files/home/tool /home
 chown -R tool:tool /home/tool
 
 # create /work volume owned by user
