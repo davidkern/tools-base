@@ -27,9 +27,9 @@ useradd -m tool -s /bin/zsh
 cp -R /build/files/home/tool /home
 chown -R tool:tool /home/tool
 
-# create /work volume owned by user
-mkdir /work
-chown user:user /work
+# create /host volume owned by user
+mkdir /host
+chown user:user /host
 
 # create tool directory owned by tool
 mkdir /tool
