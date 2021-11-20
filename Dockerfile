@@ -7,4 +7,4 @@ ENV COLORTERM=truecolor
 ENV TERM=xterm-256color
 
 USER user
-VOLUME [ "/work" ]
+VOLUME [ "/host" ]
