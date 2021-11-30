@@ -1,6 +1,9 @@
 #!/bin/bash -eux
 
 export DEBIAN_FRONTEND=noninteractive
+export MACHINE=$(uname -m)
+
+echo "Building for architecture: ${MACHINE}"
 
 # get updates
 apt-get update
@@ -15,7 +18,7 @@ sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
 xargs -a packages apt-get install -y
 
 # install starship
-tar zxvf starship-1.0.0-x86_64-unknown-linux-musl.tar.gz -C /usr/bin
+tar zxvf starship-1.0.0-${MACHINE}-unknown-linux-musl.tar.gz -C /usr/bin
 chown root:root /usr/bin/starship
 
 # create users

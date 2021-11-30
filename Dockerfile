@@ -1,4 +1,4 @@
-FROM debian:bullseye-20211011-slim
+FROM debian:bullseye-20211115-slim
 
 RUN --mount=type=bind,src=build,target=/build cd /build && ./build.sh
 
