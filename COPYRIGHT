@@ -1,14 +1,13 @@
 Short version for non-lawyers:
 
-The tools-base project is dual-licensed under Apache 2.0 and MIT
-terms.
+The dxtool/os-debian project is dual-licensed under Apache 2.0 and MIT terms.
 
 Longer version:
 
-Copyrights in the tools-base project are retained by their contributors. No
-copyright assignment is required to contribute to the tools-base project.
+Copyrights in the dxtool/os-debian project are retained by their contributors. No
+copyright assignment is required to contribute to the dxtool/os-debian project.
 
-Except as otherwise noted (below and/or in individual files), the tools-base project is
+Except as otherwise noted (below and/or in individual files), the dxtool/os-debian project is
 licensed under the Apache License, Version 2.0 <LICENSE-APACHE> or
 <http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
 <LICENSE-MIT> or <http://opensource.org/licenses/MIT>, at your option.
